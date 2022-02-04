@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
-    width: 1440px;
+    max-width: 1440px;
     font-family: 'Montserrat', sans-serif;
 }
+
 h1, h2 {
     margin: 0;
 }
@@ -115,4 +116,70 @@ h1, h2 {
     align-items: center;
     justify-content: space-between;
     margin-top: 152px;
+}
+
+
+
+                                                /*mobile-version*/
+@media (max-width: 428px) {
+    .header-wrapper {
+        background-image: url("images/header/background-mobile.png");
+        height: 928px;
+    }
+
+    body {
+        max-width: 428px;
+        margin: 0;
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction:column;
+        padding: 27px 24px 106px 24px;
+    }
+
+    .header-navbar ul {
+        display: none;
+    }
+
+    .header-navbar {
+        background-image: url("images/header/menu.png");
+        height: 40px;
+        width: 40px;
+    }
+
+    .header-container-title {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 116px;
+    }
+
+    .header-social {
+        margin-top: 98px;
+        margin-left: auto;
+    }
+    .header-title-text1 {
+        font-size: 36px;
+        margin-bottom: 12px;
+    }
+
+    .header-title-text2 {
+        font-size: 30px;
+        top: 226px;
+        left: 233px;
+    }
+
+    .header-title-text3 img {
+        display: none;
+    }
+
+    .header-title-text3-mobile {
+        background-image: url("images/header/pero-travel-mobile.png");
+        display: list-item;
+    }
+
+    .header-button {
+        margin-top: 90px;
+    }
 }
