@@ -33,6 +33,7 @@ h1, h2 {
 
 .blue-text {
     color: #0499DD;
+    font-weight: 700;
 }
 
 .white-text-span {
@@ -45,6 +46,10 @@ h1, h2 {
     font-size: 12px;
     font-weight: 700;
     color: white;
+}
+
+.black-text {
+    font-weight: 500;
 }
                                                /* header-wrapper*/
 
@@ -266,6 +271,39 @@ h1, h2 {
 }
 
 
+                                                     /*about-us*/
+
+.about-us-wrapper {
+    margin-top: 150px;
+    position: relative;
+}
+
+.about-us-container {
+    background: #EDEDED;
+    height: 318px;
+    width: 403px;
+    border-radius: 10px;
+    position: absolute;
+    top: 140px;
+    right: 130px;
+    padding: 61px 75px 105px 85px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.about-us-mobile {
+    display: none;
+}
+
+.text-about-us {
+    font-size: 14px;
+}
+
 
 
 
@@ -373,5 +411,27 @@ h1, h2 {
         padding: 0 16px;
     }
 
+    .about-us-desktop {
+        display: none;
+    }
 
+    .about-us-mobile {
+        display: block;
+    }
+
+    .about-us-container {
+        height: 310px;
+        width: 297px;
+        top: 160px;
+        right: 24px;
+        padding: 43px 43px 44px 43px;
+    }
+
+    .text-about-us {
+        font-size: 13px;
+    }
+
+    .about-us-title {
+        margin-bottom: 0;
+    }
 }
