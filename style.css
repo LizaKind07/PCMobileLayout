@@ -305,7 +305,58 @@ h1, h2 {
 }
 
 
+                                            /*types-of-excursions-wrapper*/
 
+
+.types-of-excursions-wrapper {
+    padding: 150px 160px;
+}
+
+.types-of-excursions-header {
+    display: flex;
+}
+
+.types-of-excursions-header span {
+    font-size: 24px;
+    margin-bottom: 90px;
+}
+
+.types-of-excursions-content {
+    display: flex;
+}
+
+.types-of-excursions-top, .types-of-excursions-bottom {
+    display: flex;
+}
+
+.excursions-top-img, .excursions-bottom-img {
+    margin-right: 20px;
+}
+
+.types-of-excursions-top {
+    margin-bottom: 40px;
+}
+
+.types-of-excursions-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 262px 0 260px;
+}
+
+.excursions-top-title, .excursions-bottom-title p {
+    font-size: 14px;
+}
+
+.types-of-excursions-footer p {
+    font-size: 14px;
+}
+
+.types-of-excursions-button span {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
 
 
                                                 /*mobile-version*/
