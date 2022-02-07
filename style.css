@@ -312,20 +312,12 @@ h1, h2 {
     padding: 150px 160px;
 }
 
-.types-of-excursions-header {
-    display: flex;
-}
-
 .types-of-excursions-header span {
     font-size: 24px;
     margin-bottom: 90px;
 }
 
-.types-of-excursions-content {
-    display: flex;
-}
-
-.types-of-excursions-top, .types-of-excursions-bottom {
+.types-of-excursions-top, .types-of-excursions-bottom, .types-of-excursions-content, .types-of-excursions-header {
     display: flex;
 }
 
